@@ -1,0 +1,681 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.0;
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(at top right, rgb(207, 195, 23), rgb(32, 120, 192));
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h3,
+a {
+    color: #77762a;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.70em;
+}
+
+.logo a:hover {
+    color: #316fa1;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #316fa1;
+    font-size: 1.1em;
+}
+
+.main-nav a:hover {
+    color: #aeb11b;
+}
+
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px solid #9e5555;
+    background-color: #ececeb;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(102, 32, 11, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ececeb;
+}
+
+.s1 {
+    width: 93%;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*background-color: #184ab68f;
+    background-color: #184ab68f;*/
+    position: relative;
+    border-radius: 20px;
+    transition: .2s ease-in;
+    z-index: 1;
+}
+
+.s1:hover {
+    background: radial-gradient(at top right, rgb(82, 144, 199), rgb(25, 124, 55));
+    box-shadow: 0 0 5px #29faef, 0 0 25px #29faef, 0 0 50px #29faef, 0 0 200px #29faef;
+}
+
+.s2 {
+    width: 93%;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*background-color: #33be218f;
+    background-color: #184ab68f;*/
+    position: relative;
+    border-radius: 20px;
+    transition: .6s ease-in;
+    z-index: 1;
+}
+
+.s2:hover {
+    background: radial-gradient(at top right, rgb(34, 116, 18), rgb(69, 108, 216));
+    box-shadow: 0 0 5px #0dca2c, 0 0 25px #0dca2c, 0 0 50px #0dca2c, 0 0 200px #0dca2c;
+}
+
+.s3 {
+    width: 93%;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*background-color: #184ab68f;
+    /*background-color: #184ab68f;*/
+    position: relative;
+    border-radius: 20px;
+    transition: .6s ease-in;
+    z-index: 1;
+}
+
+.s3:hover {
+    background: radial-gradient(at top right, rgb(82, 144, 199), rgb(25, 124, 55));
+    box-shadow: 0 0 5px #29faef, 0 0 25px #29faef, 0 0 50px #29faef, 0 0 200px #29faef;
+}
+
+.s4 {
+    width: 93%;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*background-color: #33be218f;
+    /*background-color: #184ab68f;*/
+    position: relative;
+    border-radius: 20px;
+    transition: .6s ease-in;
+    z-index: 1;
+}
+
+.s4:hover {
+    background: radial-gradient(at top right, rgb(34, 116, 18), rgb(69, 108, 216));
+    box-shadow: 0 0 5px #0dca2c, 0 0 25px #0dca2c, 0 0 50px #0dca2c, 0 0 200px #0dca2c;
+}
+
+.s5 {
+    width: 93%;
+    height: 900px;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*background-color: #184ab68f;
+    /*background-color: #184ab68f;*/
+    position: relative;
+    border-radius: 20px;
+    transition: .6s ease-in;
+    z-index: 1;
+}
+
+.s5:hover {
+    background: radial-gradient(at top right, rgb(82, 144, 199), rgb(25, 124, 55));
+    box-shadow: 0 0 5px #29faef, 0 0 25px #29faef, 0 0 50px #29faef, 0 0 200px #29faef;
+}
+
+.div1 {
+    width: 97%;
+    height: 350px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.div2 {
+    width: 97%;
+    height: 350px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.left {
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+.left::before,
+.left::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.left:hover {
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+}
+
+.center {
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+.center::before,
+.center::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.center:hover {
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+}
+
+.right {
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+.right::before,
+.right::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+
+.right:hover {
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+}
+
+.s1 .div1 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Double-compound-pendulum.gif);
+}
+
+.s1 .div1 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/33/PID_Compensation_Animated.gif);
+}
+
+.s1 .div1 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/LogisticTopMixing1-6.gif/490px-LogisticTopMixing1-6.gif);
+}
+
+.s1 .div2 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://ww2.mathworks.cn/matlabcentral/mlc-downloads/downloads/submissions/21944/versions/3/screenshot.gif);
+}
+
+.s1 .div2 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://cdn-images-1.medium.com/max/1200/1*-teDpAIho_nzNShRswkfrQ.gif);
+}
+
+.s1 .div2 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://res-3.cloudinary.com/computer-science-association/image/upload/c_fit,f_auto,q_auto,w_auto/v1/csa-tech-blog-images/yl9t1as4quub2dgk7f6h.gif);
+}
+
+.s2 .div1 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://spidercontrol.net/wp-content/uploads/2017/01/industrial_automation.jpg);
+}
+
+.s2 .div1 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Shadow_Hand_Bulb_large.jpg/320px-Shadow_Hand_Bulb_large.jpg);
+}
+
+.s2 .div1 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anatomy-1751201_1280.png/420px-Anatomy-1751201_1280.png);
+}
+
+.s2 .div2 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://www.smallbizdaily.com/wp-content/uploads/2021/07/shutterstock_1670471011-1.jpg)
+}
+
+.s2 .div2 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://bleuwire.com/wp-content/uploads/2019/12/It-automation-robotic-process-automation.png.webp);
+}
+
+.s2 .div2 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Internet_of_things_signed_by_the_author.jpg/400px-Internet_of_things_signed_by_the_author.jpg);
+}
+
+.s3 .div1 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://www.dfliq.net/wp-content/uploads/2015/09/electrical-transformer.gif);
+}
+
+.s3 .div1 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://instrumentationtools.com/wp-content/uploads/2021/06/Difference-between-Transmitter-and-Transducer.png);
+}
+
+.s3 .div1 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://cemanco.com/wp-content/uploads/2016/02/spooling-traverses-edge-sensor.jpg);
+}
+
+.s3 .div2 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://cdn.instrumentationtools.com/wp-content/uploads/2016/05/instrumentationtools.com_basics-of-actuators.jpg);
+}
+
+.s3 .div2 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://www.euromatech.com/wp-content/uploads/2019/12/IN100-Industrial-Instrumentation-and-Modern-Control-Systems.jpg);
+}
+
+.s3 .div2 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://media.vozpopuli.com/2021/02/Captura-presentacion-Neurlalink-Elon-Musk_1387671309_15741953_1200x675.png);
+}
+
+.s4 .div1 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://ichef.bbci.co.uk/news/624/mcs/media/images/83468000/jpg/_83468623_cheetahafp.jpg);
+}
+
+.s4 .div1 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://www.autonomousvehicleinternational.com/wp-content/uploads/2019/11/AVs-at-night-cropped-1.jpg);
+}
+
+.s4 .div1 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://www.hibridosyelectricos.com/media/hibridos/images/2021/02/19/2021021911520984991.jpg);
+}
+
+.s4 .div2 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UAV_Comparison.jpg/800px-UAV_Comparison.jpg);
+}
+
+.s4 .div2 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://s3.amazonaws.com/assets.clearpathrobotics.com/wp-content/uploads/2021/01/21121403/Webp.net-resizeimage-37-1080x675.png);
+}
+
+.s4 .div2 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://israelnoticias.com/wp-content/uploads/2021/03/drone-swarm.jpg);
+}
+
+.s5 .div1 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/330px-Tesla_circa_1890.jpeg);
+}
+
+.s5 .div1 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/James_Clerk_Maxwell.png);
+}
+
+.s5 .div1 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Michael_Faraday._Photograph_by_Maull_%26_Polyblank._Wellcome_V0026348.jpg/300px-Michael_Faraday._Photograph_by_Maull_%26_Polyblank._Wellcome_V0026348.jpg);
+}
+
+.s5 .div2 .left {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cf/Hans_Christian_%C3%98rsted_daguerreotype.jpg);
+}
+
+.s5 .div2 .center {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    left: 33.5%;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Alexander_Graham_Bell.jpg);
+}
+
+.s5 .div2 .right {
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding: 0px;
+    right: 0px;
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Oheaviside.jpg/320px-Oheaviside.jpg);
+}
+
+button {
+    background-color: transparent;
+    color: blue;
+    width: 100px;
+    height: 25px;
+    bottom: -270px;
+    border-radius: 90px;
+    border-width: 1.2px;
+    position: relative;
+    border-color: gold;
+    transition: .2s ease-in;
+    z-index: 1;
+}
+
+button::before,
+button::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+.btn:hover {
+    background: #86152e;
+    box-shadow: 0 0 5px #700a20, 0 0 25px #700a20, 0 0 50px #700a20, 0 0 200px #700a20;
+}
+
+
+/* ================================= Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
